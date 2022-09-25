@@ -1,0 +1,6 @@
+- hosts: localhost
+  tasks:
+  - name: Update apt
+    become: yes
+    apt:
+      update_cache: true
