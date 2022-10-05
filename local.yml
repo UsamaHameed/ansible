@@ -24,3 +24,4 @@
     - include: tasks/nvim.yml
     - include: tasks/lsp.yml
     - include: tasks/brave.yml
+    - include: tasks/productivity-tools.yml
