@@ -1,5 +1,6 @@
 - name: Installing stow
   apt: name=stow
+  become: true
   tags:
     - install
     - dotfiles

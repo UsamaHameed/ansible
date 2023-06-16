@@ -55,7 +55,8 @@
     - node
 
 - name: Install correct version of Node
-  shell: n 14
+  shell: n 16
+  become: true
   tags:
     - install
     - node

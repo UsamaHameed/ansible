@@ -22,5 +22,4 @@
     - include: tasks/node-setup.yml
     - include: tasks/npm-packages.yml
     - include: tasks/nvim.yml
-    - include: tasks/lsp.yml
     - include: tasks/productivity-tools.yml
