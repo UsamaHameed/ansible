@@ -1,0 +1,12 @@
+- name: clone fonts repo
+  ansible.builtin.git:
+    repo: 'https://github.com/ryanoasis/nerd-fonts.git'
+    dest: "{{ lookup('env', 'HOME') }}/nerd-fonts"
+  tags:
+    - install
+    - fonts
+- name: install FiraCode font
+  shell: "cd {{ lookup('env', 'HOME') }}/nerd-fonts && ./install.sh FiraCode"
+  tags:
+    - install
+    - fonts

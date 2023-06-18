@@ -25,3 +25,11 @@
   tags:
     - install
     - productivity
+
+- name: Messaging
+  community.general.snap:
+    name:
+      - discord
+      - spotify
+      - telegram-desktop
+    state: present
