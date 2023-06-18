@@ -26,8 +26,7 @@
     dest: "~/.oh-my-zsh/plugins/zsh-autosuggestions"
   tags: *tags_for_zsh_tasks
 
-# to export
-# dconf dump /org/gnome/terminal/legacy/profiles:/ > gnome-terminal-profiles.dconf
+# https://github.com/UsamaHameed/.dotfiles/tree/main/gnome-terminal
 - name: import gnome-terminal profile
   shell: dconf load /org/gnome/terminal/legacy/profiles:/ < ~/.dotfiles/gnome-terminal/gnome-terminal-profiles.dconf
   tags: *tags_for_zsh_tasks
