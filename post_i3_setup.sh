@@ -17,3 +17,6 @@
 
 xset s 1800
 xset dpms 0 0 1800
+
+echo "installing i3-resurrect"
+pip3 install --user --upgrade i3-resurrect
