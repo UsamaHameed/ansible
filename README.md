@@ -1,3 +1,7 @@
+# ansible
+
+ansible playbooks to setup a linux machine
+
 ansible-playbook --ask-become-pass --ask-vault-pass local.yml
 
 ansible-vault encrypt <path-to-file>
